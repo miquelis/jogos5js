@@ -1,5 +1,8 @@
+
 function setup() {
-  createCanvas(500, 400);
+
+  let tm = windowWidth * 0.8
+  createCanvas(tm, windowHeight);
   somDaTrilha.loop();
 }
 
@@ -17,7 +20,10 @@ function draw() {
 
 }
 
-
+function windowResized() {
+  let tm = windowWidth * 0.8
+  resizeCanvas(tm, windowHeight);
+}
 
 
 
