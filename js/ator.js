@@ -42,7 +42,7 @@ function incluiPontos(){
   textSize(25)
   fill(color("#ce4444"))
   textAlign(CENTER);
-  text(meusPontos, width / 5, 27);
+  text(meusPontos, 95, 27);
 }
 
 function marcaPonto(){

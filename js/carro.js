@@ -1,6 +1,6 @@
  //carro
 
-let yCarros = [40, 96, 150, 210, 270, 318];
+let yCarros = [40, 96, 146, 207, 260, 316];
 let velocidadeCarros =  [0.5, 1.0, 2.5, 1.5, 3.5, 4.5];
 let comprimentoCarro = 50;
 let alturaCarro = 40;
