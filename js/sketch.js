@@ -2,7 +2,8 @@
 function setup() {
 
   let tm = windowWidth * 0.8
-  createCanvas(tm, windowHeight);
+  let at = windowHeight * 0.63
+  createCanvas(tm, at);
   somDaTrilha.loop();
 }
 
@@ -22,7 +23,8 @@ function draw() {
 
 function windowResized() {
   let tm = windowWidth * 0.8
-  resizeCanvas(tm, windowHeight);
+  let at = windowHeight * 0.63
+  resizeCanvas(tm, at);
 }
 
 

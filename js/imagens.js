@@ -7,8 +7,12 @@ let imagemCarro3;
 let somDaTrilha;
 let somDaColisao;
 let somDoPonto;
+let xCarros;
+let wid;
 
 function preload(){
+  wid = windowWidth * 0.8
+  xCarros = [wid, wid, wid, wid, wid, wid];
   imagemDaEstrada = loadImage("public/imagens/estrada.png")
   imagemDoAtor = loadImage("public/imagens/ator-1.png")
   imagemCarro = loadImage("public/imagens/carro-1.png")
